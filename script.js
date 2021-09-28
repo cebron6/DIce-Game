@@ -23,7 +23,7 @@ img2.src = diceImgs[random2];
 
   if((random1 + 1) === (random2 + 1)){
     winner.innerHTML = 'Tie'
-  }else if ((random1 + 1) > (random2 + 1)){
+  } else if ((random1 + 1) > (random2 + 1)){
     winner.innerHTML = 'Player 1 Wins'
   } else {
      winner.innerHTML = 'Player 2 Wins'
